@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Signika+Negative:wght@700&display=swap');
+
+body 
+{
+    font-family: 'Signika Negative', sans-serif;
+    background-color: #FFDCCC;
+}
+
+.contenedor-centrado 
+{
+    display:flex;
+    width: 100%;
+    height: 100%;
+    justify-content:center;
+    align-items: center;
+
+}
+
+p 
+{
+    font-family: 'Signika Negative', sans-serif;
+    background-color: #f9f9f9;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 
+{
+    text-align: center;
+    color: #5D2A42;
+}
+
+form 
+{
+    max-width: 400px;
+    max-height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FCB1A6;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+}
+
+table 
+{
+    max-width: 100%;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#FCB1A6;
+    border: 1px solid #5D2A42;
+    border-radius: 5px;
+}
+ 
+.sin-borde td 
+{
+    border: none;
+}
+  
+td,th
+{
+    border: solid 1px #5D2A42;
+    text-align: center;
+}
+
+
+label 
+{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea 
+{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] 
+{
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover 
+{
+    background-color: #0056b3;
+}
+
+button 
+{
+    font-family:'Signika Negative', sans-serif;
+    padding: 20px;
+    width: 170px;
+    margin:4px;
+    background-color: #5D2A42;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+button:hover 
+{
+    background-color: #96486c;
+}
+
+a 
+{
+    padding: 20px;
+    width: 170px;
+    margin:4px;
+    background-color: #E84A5F;
+    color: #ffffff;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+a:hover 
+{
+    background-color: #eb1c38;
+}
+
+.botones 
+{
+    background-color: #E84A5F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+}
+
+.botones:hover
+{
+    background-color: #e2aeb5;
+}
+
